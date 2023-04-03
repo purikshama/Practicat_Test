@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    /* border: 1px solid red; */
+}
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: lightgreen; */
+}
+.container .header{
+    width: 100%;
+    height: 20%;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 10px #333;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.container .header .org{
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+    box-sizing: border-box;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .header .org span{
+    background-color: crimson;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 10px;
+}
+.container .header .nav{
+    width: 50%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.container .header .nav .links{
+    margin-right: 30px;
+    color: green;
+    font-size: 2em;
+}
+.container .header .nav .links:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.container .main{
+    width: 100%;
+    height: 80%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(IMAGES/15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container .main .section{
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+    box-sizing: border-box;
+}
